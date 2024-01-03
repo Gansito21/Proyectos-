@@ -1,9 +1,4 @@
-void setup() {
-  // put your setup code here, to run once:
-
-}
-
-void loop() {#include <ESP32Servo.h>
+#include <ESP32Servo.h>
 #include "BluetoothSerial.h"
 
 //Ultrasonico
@@ -202,6 +197,4 @@ int lectura_dist(){
   distance= sqrt(116964 * pow(t_1, 2) - 9 / 62500.0)*100;
   return distance;
 }
-  // put your main code here, to run repeatedly:
 
-}
